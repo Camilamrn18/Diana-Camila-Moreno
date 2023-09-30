@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+
+.menu{
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: 800;
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+}
+.menuolivadoro{
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: 800;
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+}
+.parrafo1{
+    font-family: 'Pompiere', cursive;
+    font-weight: 400;
+    font-size: larger;
+    text-align: center;
+    color: black;
+}
+.historia1{
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: 800;
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+}
+.parrafo2{
+    font-family: 'Pompiere', cursive;
+    font-weight: 400;
+    font-size: larger;
+    text-align: center;
+    color: black;
+}
+.parrafo3{
+    font-family: 'Pompiere', cursive;
+    font-weight: 400;
+    font-size: larger;
+    text-align: center;
+    color: black;
+}
+.menu2{
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: 800;
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+}
+.parrafo4{
+    font-family: 'Pompiere', cursive;
+    font-weight: 400;
+    font-size: larger;
+    text-align: center;
+    color: black;
+}
+.pie2{
+    font-family: 'Pompiere', cursive;
+    font-weight: 400;
+    font-size: larger;
+    text-align: center;
+    color: black;
+}
+.precio{
+    font-family: 'Vidaloka', serif;
+    font-weight: 400;
+    font-size: small;
+    text-align: center;
+    color: black;
+}
+
+
+#encabezado{
+    background-color:#F1C27B;
+}
+#menu{
+    background-color:#A2CDB0;
+}
+#pie{
+    background-color:#FFD89C;
+}
+#menupizzas{
+    background-color:#A2CDB0;
+}
+
+.pizza1{
+    background-color:#FFF2CC;
+    width: 250px;
+    border: 15px solid #F4B183;
+    padding: 40px;
+    margin: 20px;
+}
+
+.bebidas{
+    background-color:#FFF2CC;
+    width: 250px;
+    border: 8px solid #F4B183;
+    padding: 40px;
+    margin: 20px;
+}
+
+.fotosr{
+    background-color:#FFF2CC;
+    width: 250px;
+    border: 30px solid #F4B183;
+    padding: 40px;
+    margin: 20px;
+}
+
+
+

@@ -1,8 +1,100 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*color de fondos*/
+#encabezado{
+    background-color:#F1C27B;
+}
+#menu{
+    background-color:#A2CDB0;
+}
+#pie{
+    background-color:#FFD89C;
+}
+#menupizzas{
+    background-color:#A2CDB0;
+}
+/*termina color de fondos*/
+
+/*Barra de menu*/
+.container{
+    width: 100%;
+    height: 60px;
+    background-color: #F1C27B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+}
+.item-options{
+    color: black ;
+    margin:0 1rem;
+    text-decoration: none;
+    font-family:'Lora', serif;
+    font-size: larger;
+    
+}
+.logo{
+    width: 90px;
+    margin: 0;
+}
+.logo img{
+    width: 100%;
+}
+/*termina Barra de menu*/
+
+/*fuentes*/
+.titulo{
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: 800;
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+}
+.parrafo{
+    font-family: 'Pompiere', cursive;
+    font-weight: 400;
+    font-size: larger;
+    text-align: center;
+    color: black;
+}
+/*termina fuentes*/
+
+/*cajas de imagenes*/
+.pizza1{
+    background-color:#FFF2CC;
+    width: 250px;
+    border: 15px solid #F4B183;
+    padding: 40px;
+    margin: 20px;
+}
+.bebidas{
+    background-color:#FFF2CC;
+    width: 250px;
+    border: 8px solid #F4B183;
+    padding: 40px;
+    margin: 20px;
+}
+.fotosr{
+    background-color:#FFF2CC;
+    width: 250px;
+    border: 30px solid #F4B183;
+    padding: 40px;
+    margin: 20px;
+}
+/*termina cajas de imagenes*/
+
+
 
 .menu{
     font-family: 'Cabin Sketch', cursive;
@@ -75,43 +167,6 @@
     color: black;
 }
 
-
-#encabezado{
-    background-color:#F1C27B;
-}
-#menu{
-    background-color:#A2CDB0;
-}
-#pie{
-    background-color:#FFD89C;
-}
-#menupizzas{
-    background-color:#A2CDB0;
-}
-
-.pizza1{
-    background-color:#FFF2CC;
-    width: 250px;
-    border: 15px solid #F4B183;
-    padding: 40px;
-    margin: 20px;
-}
-
-.bebidas{
-    background-color:#FFF2CC;
-    width: 250px;
-    border: 8px solid #F4B183;
-    padding: 40px;
-    margin: 20px;
-}
-
-.fotosr{
-    background-color:#FFF2CC;
-    width: 250px;
-    border: 30px solid #F4B183;
-    padding: 40px;
-    margin: 20px;
-}
 
 
 

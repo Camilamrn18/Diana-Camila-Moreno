@@ -1,72 +1,106 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=, initial-scale=1.0">
-        <title>Menu Oliva D' Oro</title>
-        <link rel="shortcut icon" href="Img/favicon.png">
-        <link rel="stylesheet" href="Css/Style.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Menu Oliva D' Oro</title>
+    <link rel="shortcut icon" href="Img/favicon.png">
+    <link rel="stylesheet" href="Css/Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
 <body>
-
-<!--empieza barra de menu-->
-<header class="container">
-        <figure class="logo">
-            <img src="Img/Logo Pizzería.png" alt="logo">
-        </figure>
-        <nav>
-            <a href="page/MenuOlivaD'Oro.html" class="item-options">Menu Oliva D'Oro</a>
-            <a href="page/Promociones.html" class="item-options">Promociones</a>
-            <a href="page/Contactanos.html" class="item-options">Contactanos</a>
-            <a href="page/Nosotros.html" class="item-options">Nosotros</a>
-            <a href="index.html" class="item-options">Inicio</a>
+    <header>
+        <!--empieza barra de menu-->
+        <nav class="navbar navbar-expand-lg " id="encabezado">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="#">
+                    <img src="Img/Logo Pizzería.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="page/MenuOlivaD'Oro.html">Menu Oliva
+                                D'Oro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="page/Promociones.html">Promociones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="page/Contactanos.html">Contactanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="page/Nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-</header>
-<!--termina barra de menu-->
-<!--empieza home-->
-
-<main>
-    <div id="menu">
-        <div class="containe1">
+        <!--termina barra de menu-->
+    </header>
+    <!--empieza home-->
+    <div class="container-fluid text-center pb-4 pt-4" id="menu">
+        <div class="row">
+            <div class="col">
                 <h1 class="titulo">Oliva D'oro</h1>
-                <img src="Img/Pizza 1.PNG" height= "250" width="460" alt="pizza1">
-                <img src="Img/pizza2.jpg" height="250" width="260" alt="pizza2">
+                <img class="pizza" src="Img/Pizza 1.PNG" alt="pizza1">
+            </div>
+            <div class="col">
+                <h3 class="titulo">Menu Oliva D'oro</h3>
+                <p class="parrafo">Nuestro menu es amplio, tenemos variedad de pizza para todo tipo de gustos. conoce
+                    mas </p>
+                <img src="Img/pizza3.png" height="250" width="260" alt="pizza3">
+                <a class="d-block" href="page/MenuOlivaD'Oro.html">Click aqui</a>
+            </div>
         </div>
-
-        <div class="containe1">
-            <img src="Img/pizza3.png" height="250" width="260" alt="pizza3">
-                    <h3 class="titulo">Menu Oliva D'oro</h3>
-                    <p class="parrafo">Nuestro menu es amplio, tenemos variedad de pizza para todo tipo de gustos. conoce mas </p>
-                    <a href ="page/MenuOlivaD'Oro.html">Click aqui</a>
-        </div>
-
-        <div class="containe1">
-                <h3 class="titulo">Historia de Oliva D’oro</h3>
-                <p class="parrafo">Todo comenzo en un pequeño local en el oriente de la ciudad, empezamos por sabores clasicos y poca vairedad de pizzas, pero con tiempo y dedicacion hemos crecido y hemos reinventado nuestras pizzas, esperamos de corazon les guste, disfruten y tengan una buena experiencia en nuestro restaurante. </p>
-                <a href="page/Nosotros.html">Conoce mas</a>
-        </div>
-
     </div>
-</main>
-<!--empieza pie de pagina-->
-
-    <footer">
-
-        <Div id="pie">
-            <div class="cajapie1">
-                <p class="parrafo">Siguenos en nuestras redes sociales</p>
-            </div>
-
-            <div class="cajapie2">
-                <a href="https://twitter.com/i/flow/login" target="_blank"> <img src="Img/icono twitter.png" width="30" alt="Twitter"></a>
-                <a href="https://www.instagram.com/" target="_blank"> <img src="Img/incono instagram.png" width="35" alt="Instagram"></a>
-                <a href="https://www.facebook.com/agencia.labb/" target="_blank"> <img src="Img/icono facebook.png" width="35" alt="facebook"></a>
-            </div>
-        </Div>
-
+    <main>
+        <div class="pt-4 pb-4 d-flex text-center justify-content-center flex-column " id="historia">
+            <h3 class="titulo">Historia de Oliva D’oro</h3>
+            <p class="parrafo col-6 ">Todo comenzo en un pequeño local en el oriente de la ciudad, empezamos por sabores
+                clasicos y poca vairedad de pizzas, pero con tiempo y dedicacion hemos crecido y hemos reinventado
+                nuestras pizzas, esperamos de corazon les guste, disfruten y tengan una buena experiencia en nuestro
+                restaurante. </p>
+            <a href="page/Nosotros.html">Conoce mas</a>
+        </div>
+        <!--termina home-->
+    </main>
+    <!--empieza footer-->
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <nav class="row">
+                <!--menu-->
+                <ul class="col-4 list-unstyled">
+                    <li class="font-weight-bold text-uppercase">Privacidad de datos</li>
+                    <li class="font-weight-bold text-uppercase">Termninos y condiciones</li>
+                </ul>
+                <!--redes sociales-->
+                <ul class="col-4 list-unstyled">
+                    <li class="font-weight-bold text-uppercase">Redes Sociales</li>
+                    <li>
+                        <a href="https://twitter.com/i/flow/login" target="_blank"> <img src="Img/icono twitter.png"
+                                width="30" alt="Twitter"></a>
+                        <a href="https://www.instagram.com/" target="_blank"> <img src="Img/incono instagram.png"
+                                width="35" alt="Instagram"></a>
+                        <a href="https://www.facebook.com/agencia.labb/" target="_blank"> <img
+                                src="Img/icono facebook.png" width="35" alt="facebook"></a>
+                    </li>
+                </ul>
+                <!--©-->
+                <ul class="col-4 list-unstyled">
+                    <li class="font-weight-bold text-uppercase">© Oliva D'Oro 2023</li>
+                </ul>
+                </ul>
+            </nav>
+        </div>
     </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-<!--termina pie de pagina-->
+    <!--termina footer-->
 </body>
-</html> 
+</html>

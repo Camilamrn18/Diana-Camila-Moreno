@@ -1,173 +1,226 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=, initial-scale=1.0">
-        <title>Menu Oliva D' Oro</title>
-        <link rel="shortcut icon" href="../Img/favicon.png">
-        <link rel="stylesheet" href="../Css/Style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Menu Oliva D' Oro</title>
+    <link rel="shortcut icon" href="../Img/favicon.png">
+    <link rel="stylesheet" href="../Css/Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
 <body>
-
-<!--empieza barra de menu-->
-<header class="container">
-    <figure class="logo">
-        <img src="../Img/Logo Pizzería.png" alt="logo">
-    </figure>
-    <nav>
-        <a href="../page/MenuOlivaD'Oro.html" class="item-options">Menu Oliva D'Oro</a>
-        <a href="../page/Promociones.html" class="item-options">Promociones</a>
-        <a href="../page/Contactanos.html" class="item-options">Contactanos</a>
-        <a href="../page/Nosotros.html" class="item-options">Nosotros</a>
-        <a href="../index.html" class="item-options">Inicio</a>
-    </nav>
-</header>
-<!--termina barra de menu-->
-
-
-<!--empieza menu de pizza-->
-<main>
-    <div id="menupizzas">
-<section>
-    <div class="titulo-menu-pizzas">
-        <h2 class="titulo">Menu Oliva D'Oro</h2>
-        <p class="parrafo4">Todas nuestras pizzas son elaboradas con masa madre y mozzarella de bufala</p>
+    <header>
+        <!--empieza barra de menu-->
+        <nav class="navbar navbar-expand-lg " id="encabezado">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="#">
+                    <img src="../Img/Logo Pizzería.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../page/MenuOlivaD'Oro.html">Menu Oliva D'Oro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../page/Promociones.html">Promociones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../page/Contactanos.html">Contactanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../page/Nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--termina barra de menu-->
+    </header>
+    <!--empieza menu de pizza-->
+    <div class="container-fluid text-center pb-4 pt-4" id="menu">
+        <div class="row">
+            <div class="col">
+                <div class="titulo-menu-pizzas">
+                    <h2 class="titulo">Menu Oliva D'Oro</h2>
+                    <p class="parrafo4">Todas nuestras pizzas son elaboradas con masa madre y mozzarella de bufala</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="menu-pizzas">
+                        <div class="pizza1">
+                            <img src="../Img/pizza peperoni.jpeg" height="250" width="260" alt="Pizza peperoni">
+                            <h3 class="titulopizzas">Pizza peperoni</h3>
+                            <br>
+                            <ul class="listas-menu">
+                                <li>Pepperoni</li>
+                                <li>Queso mozzarella</li>
+                                <li>Albaca</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="pizza1">
+                        <img src="../Img/Pizza vegetales.jpeg" height="250" width="260" alt="Pizza vegetales">
+                        <h3 class="titulopizzas">Pizza Vegetales</h3>
+                        <br>
+                        <ul class="listas-menu">
+                            <li>Queso Mozzarella</li>
+                            <li>pimientov,cebolla</li>
+                            <li>calabacín, aceitunas negras</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="pizza1">
+                        <img src="../Img/pizza margarita.jpg" height="250" width="260" alt="Pizza Margarita">
+                        <h3 class="titulopizzas">Margarita</h3>
+                        <br>
+                        <ul class="listas-menu">
+                            <li>Queso mozzarella</li>
+                            <li>tomate</li>
+                            <li>cebolla</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="pizza1">
+                    <img src="../Img/pizza champiñon.jpeg" height="250" width="260" alt="Pizza Champiñon">
+                    <h3 class="titulopizzas">Champiñon</h3>
+                    <br>
+                    <ul class="listas-menu">
+                        <li>Queso mozzarella</li>
+                        <li>jamon york</li>
+                        <li>champiñones</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="pizza1">
+                    <img src="../Img/pizza queso.jpeg" height="250" width="260" alt="Pizza cuatro quesos">
+                    <h3 class="titulopizzas">Cuatro Quesos</h3>
+                    <br>
+                    <ul class="listas-menu">
+                        <li>Queso azul</li>
+                        <li>Queso gruyere</li>
+                        <li>champiñones</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="pizza1">
+                    <img src="../Img/Pizza piña.jpeg" height="250" width="260" alt="Pizza piña">
+                    <h3 class="titulopizzas">Pizza Piña</h3>
+                    <br>
+                    <ul class="listas-menu">
+                        <li>Queso mozzarella</li>
+                        <li>Piña a la parrilla</li>
+                        <li>Jamon York</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-        
-    <div class="menu-pizzas">
-        <div class="pizza1">
-            <img src="../Img/pizza peperoni.jpeg" height="250" width="260" alt="Pizza peperoni">        
-            <h3 class="titulopizzas">Pizza peperoni</h3>
-            <br>
-                <ul class="listas-menu">
-                    <li>Pepperoni</li>
-                    <li>Queso mozzarella</li>
-                </ul>
+    <!--termina menu de pizza-->
+    <!--empieza menu de bebidas-->
+    <div class="container-fluid text-center pb-4 pt-4" id="menu">
+        <div class="row">
+            <div class="col">
+                <div class="titulo-menu-pizzas">
+                    <h3 class="titulo"> Acompaña tus pizzas con la bebida que desees</h3>
+                </div>
+            </div>
         </div>
-
-        <div class="pizza1">
-            <img src="../Img/Pizza vegetales.jpeg" height="250" width="260" alt="Pizza vegetales">
-            <h3 class="titulopizzas">Pizza Vegetales</h3>
-            <br>
-            <ul class="listas-menu">
-                <li>Queso Mozzarella</li>
-                <li>pimiento</li>
-                <li>cebolla</li>
-                <li>calabacín</li>
-                <li>aceitunas negras</li>
-            </ul>
-        </div>
-        
-        <div class="pizza1">
-            <img src="../Img/pizza margarita.jpg" height="250" width="260" alt="Pizza Margarita">
-            <h3 class="titulopizzas">Margarita</h3>
-            <br>
-            <ul class="listas-menu">
-                <li>Queso mozzarella</li>
-                <li>tomate</li>
-                <li>cebolla</li>
-            </ul>
-        </div>
-        
-        <div class="pizza1">
-            <img src="../Img/pizza champiñon.jpeg" height="250" width="260" alt="Pizza Champiñon">
-            <h3 class="titulopizzas">Champiñon</h3>
-            <br>
-            <ul class="listas-menu">
-                <li>Queso mozzarella</li>
-                <li>jamon york</li>
-                <li>champiñones</li>
-            </ul>
-        </div>
-
-        <div class="pizza1">
-            <img src="../Img/pizza queso.jpeg" height="250" width="260" alt="Pizza cuatro quesos">
-            <h3 class="titulopizzas">Cuatro Quesos</h3>
-            <br>
-            <ul class="listas-menu">
-                <li>Queso azul</li>
-                <li>Queso gruyere</li>
-                <li>champiñones</li>
-            </ul>
-        </div>
-        
-        <div class="pizza1">
-            <img src="../Img/Pizza piña.jpeg" height="250" width="260" alt="Pizza piña">
-            <h3 class="titulopizzas">Pizza Piña</h3>
-            <br>
-            <ul class="listas-menu">
-                <li>Queso mozzarella</li>
-                <li>Piña a la parrilla</li>
-                <li>Jamon York</li>
-            </ul>
+        <div class="row">
+            <div class="col">
+                <div class="Menu-bebidas">
+                    <div class="bebidas">
+                        <h3 class="titulopizzas">Jugos naturales:</h3>
+                        <br>
+                        <ul class="listas-menu">
+                            <li>Mango</li>
+                            <li>Maracuyá</li>
+                            <li>Piña</li>
+                            <li>Limonada</li>
+                            <li>Limonada de coco</li>
+                            <li>Limonada de hierba buena</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="bebidas">
+                    <h3 class="titulopizzas">Gaseosas:</h3>
+                    <br>
+                    <ul class="listas-menu">
+                        <li>Coca Cola original</li>
+                        <li>Coca Cola sin azúcar</li>
+                        <li>Cuatro</li>
+                        <li>Sprite</li>
+                        <li>Cola Roman</li>
+                        <li>Canada dry</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="bebidas">
+                    <h3 class="titulopizzas">Cervezas:</h3>
+                    <br>
+                    <ul class="listas-menu">
+                        <li>Club Colombia</li>
+                        <li>Tres Cordilleras</li>
+                        <li>BBC</li>
+                        <li>Corona</li>
+                        <li>Heineken</li>
+                        <li>Stella</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
-    
-    </section>
-<!--termina menu de pizza-->
-        
-<!--empieza menu de bebidas-->
-    <h3 class="titulo"> Acompaña tus pizzas con la bebida que desees</h3>
-    <section>
-        <div class="Menu-bebidas">
-            <div class="bebidas">
-                <h3 class="titulopizzas">Jugos naturales:</h3>
-                <br>
-                <ul class="listas-menu">
-                    <li>Mango</li>
-                    <li>Maracuyá</li>
-                    <li>Piña</li>
-                    <li>Limonada</li>
-                    <li>Limonada de coco</li>
-                    <li>Limonada de hierba buena</li>
-                </ul>
-            </div>
-        
-            <div class="bebidas">
-                <h3 class="titulopizzas">Gaseosas:</h3>
-                <br>
-                <ul class="listas-menu">
-                    <li>Coca Cola original</li>
-                    <li>Coca Cola sin azúcar</li>
-                    <li>Cuatro</li>
-                    <li>Sprite</li>
-                    <li>Cola Roman</li>
-                    <li>Canada dry</li>
-                </ul>
-            </div>
-        
-            <div class="bebidas">
-                <h3 class="titulopizzas">Cervezas:</h3>
-                <br>
-                <ul class="listas-menu">
-                    <li>Club Colombia</li>
-                    <li>Tres Cordilleras</li>
-                    <li>BBC</li>
-                    <li>Corona</li>
-                    <li>Heineken</li>
-                    <li>Stella</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-<!--termina menu de bebidas-->
+    <!--termina menu de bebidas-->
     </main>
-
-<!--empieza pie de pagina-->
-    <footer">
-        <Div id="pie">
-            <div class="cajapie1">
-                <p class="parrafo">Siguenos en nuestras redes sociales</p>
-            </div>
-
-            <div class="cajapie2">
-                <a href="https://twitter.com/i/flow/login" target="_blank"><img src="../Img/icono twitter.png" width="30" alt="Twitter"></a>
-                <a href="https://www.instagram.com/" target="_blank"><img src="../Img/incono instagram.png" width="35" alt="Instagram"></a>
-                <a href="https://www.facebook.com/agencia.labb/" target="_blank"><img src="../Img/icono facebook.png" width="35" alt="facebook"></a>
-            </Div>
-
+    <!--empieza Footer-->
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <nav class="row">
+                <!--menu-->
+                <ul class="col-4 list-unstyled">
+                    <li class="font-weight-bold text-uppercase">Privacidad de datos</li>
+                    <li class="font-weight-bold text-uppercase">Termninos y condiciones</li>
+                </ul>
+                <!--redes sociales-->
+                <ul class="col-4 list-unstyled">
+                    <li class="font-weight-bold text-uppercase">Redes Sociales</li>
+                    <li>
+                        <a href="https://twitter.com/i/flow/login" target="_blank"> <img src="../Img/icono twitter.png"
+                                width="30" alt="Twitter"></a>
+                        <a href="https://www.instagram.com/" target="_blank"> <img src="../Img/incono instagram.png"
+                                width="35" alt="Instagram"></a>
+                        <a href="https://www.facebook.com/agencia.labb/" target="_blank"> <img
+                                src="../Img/icono facebook.png" width="35" alt="facebook"></a>
+                    </li>
+                </ul>
+                <!--©-->
+                <ul class="col-4 list-unstyled">
+                    <li class="font-weight-bold text-uppercase">© Oliva D'Oro 2023</li>
+                </ul>
+                </ul>
+            </nav>
+        </div>
     </footer>
-<!--termina pie de pagina-->
+    <!--termina footer-->
 </body>
 </html>

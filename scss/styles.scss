@@ -1,0 +1,103 @@
+$color_1: black;
+$font-family_1: 'Lora', serif;
+$font-family_2: 'Cabin Sketch', cursive;
+$font-family_3: 'Pompiere', cursive;
+$font-family_4: 'Dancing Script', cursive;
+$font-family_5: 'Quicksand', sans-serif;
+$background-color_1: #F1C27B;
+$background-color_2: #A2CDB0;
+$background-color_3: #FFD89C;
+$background-color_4: #E1EEDD;
+$background-color_5: #FFF2CC;
+$border-color_orange: #F4B183;
+
+#encabezado {
+	background-color: $background-color_1;
+}
+#menu {
+	background-color: $background-color_2;
+}
+#pie {
+	background-color: $background-color_3;
+}
+#menupizzas {
+	background-color: $background-color_2;
+}
+#historia {
+	background-color: $background-color_4;
+}
+.item-options {
+	color: $color_1;
+	margin: 0 1rem;
+	text-decoration: none;
+	font-family: $font-family_1;
+	font-size: larger;
+}
+.logo {
+	width: 90px;
+	margin: 0;
+	img {
+		width: 100%;
+	}
+}
+.titulo {
+	font-family: $font-family_2;
+	font-weight: 800;
+	font-size: xx-large;
+	text-align: center;
+	color: $color_1;
+}
+.parrafo {
+	font-family: $font-family_3;
+	font-weight: 400;
+	font-size: larger;
+	text-align: center;
+	color: $color_1;
+	margin: auto;
+}
+.paginainicio {
+	background-color: $background-color_2;
+	width: 99%;
+	border: 8px solid #534e4e;
+	padding: 40px;
+	margin: 8px;
+	justify-content: center;
+}
+.pizza1 {
+	background-color: $background-color_5;
+	width: 350px;
+	border: 8px solid $border-color_orange;
+	padding: 40px;
+	margin: 20px;
+	border-radius: 5px;
+}
+.fotosr {
+	background-color: $background-color_5;
+	width: 400px;
+	border: 8px solid $border-color_orange;
+	padding: 40px;
+	margin: 10px;
+	border-radius: 5px;
+}
+.pizza {
+	width: 450px;
+	@media only screen and (max-width: 420px) { width: 90%}
+}
+
+.titulopizzas {
+    font-family: $font-family_4;
+}
+
+.listas-menu {
+	list-style: none;
+	font-family: $font-family_5;
+	text-align: left;
+}
+.bebidas {
+	background-color: $background-color_5;
+	width: 350px;
+	border: 8px solid $border-color_orange;
+	padding: 40px;
+	margin: 20px;
+	border-radius: 5px;
+}

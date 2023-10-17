@@ -1,114 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-}
-/*color de fondos*/
-#encabezado{
-    background-color:#F1C27B;
-}
-#menu{
-    background-color:#A2CDB0;
-}
-#pie{
-    background-color:#FFD89C;
-}
-#menupizzas{
-    background-color:#A2CDB0;
-}
-#historia{
-    background-color: #E1EEDD;
-}
+#encabezado {
+  background-color: #F1C27B; }
 
-/*empieza Barra de menu*/
-.item-options{
-    color: black ;
-    margin:0 1rem;
-    text-decoration: none;
-    font-family:'Lora', serif;
-    font-size: larger;
-}
-.logo{
-    width: 90px;
-    margin: 0;
-}
-.logo img{
-    width: 100%;
-}
-/*termina Barra de menu*/
-/*fuentes*/
-.titulo{
-    font-family: 'Cabin Sketch', cursive;
-    font-weight: 800;
-    font-size: xx-large;
-    text-align: center;
-    color: black;
-}
-.parrafo{
-    font-family: 'Pompiere', cursive;
-    font-weight: 400;
-    font-size: larger;
-    text-align: center;
-    color: black;
-    margin: auto;
-}
-/*termina fuentes*/
-/*header inicio*/
-.paginainicio{
-    background-color: #A2CDB0;
-    width: 99%;
-    border: 8px solid #534e4e;
-    padding: 40px;
-    margin: 8px;
-    justify-content: center;
-}
-/*termina header inicio*/
-/*empieza cajas de pizzas imagenes*/
-.pizza1{
-    background-color:#FFF2CC;
-    width: 350px;
-    border: 8px solid #F4B183;
-    padding: 40px;
-    margin: 20px;
-    border-radius: 5px;
-}
-/*termina cajas de pizza imagenes*/
-/*empieza cajas imagenes de restaurante*/
-.fotosr{
-    background-color:#FFF2CC;
-    width: 400px;
-    border: 8px solid #F4B183;
-    padding: 40px;
-    margin: 10px;
-    border-radius: 5px;
-}
-/*Termina cajas imagenes de restaurante*/
-/*empieza menu*/
-.pizza{
-    width: 450px;
-    @media only screen and (max-width: 420px) {
-        width: 90%;
-    }
-}
-.titulopizzas{
-    font-family: 'Dancing Script', cursive;
-}
-.listas-menu{
-    list-style: none;
-    font-family: 'Quicksand', sans-serif;
-    text-align: left;
-}
-.bebidas{
-    background-color:#FFF2CC;
-    width: 350px;
-    border: 8px solid #F4B183;
-    padding: 40px;
-    margin: 20px;
-    border-radius: 5px;
-}
-/*termina menu*/
+#menu {
+  background-color: #A2CDB0; }
+
+#pie {
+  background-color: #FFD89C; }
+
+#menupizzas {
+  background-color: #A2CDB0; }
+
+#historia {
+  background-color: #E1EEDD; }
+
+.item-options {
+  color: black;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-family: "Lora", serif;
+  font-size: larger; }
+
+.logo {
+  width: 90px;
+  margin: 0; }
+  .logo img {
+    width: 100%; }
+
+.titulo {
+  font-family: "Cabin Sketch", cursive;
+  font-weight: 800;
+  font-size: xx-large;
+  text-align: center;
+  color: black; }
+
+.parrafo {
+  font-family: "Pompiere", cursive;
+  font-weight: 400;
+  font-size: larger;
+  text-align: center;
+  color: black;
+  margin: auto; }
+
+.paginainicio {
+  background-color: #A2CDB0;
+  width: 99%;
+  border: 8px solid #534e4e;
+  padding: 40px;
+  margin: 8px;
+  justify-content: center; }
+
+.pizza1 {
+  background-color: #FFF2CC;
+  width: 350px;
+  border: 8px solid #F4B183;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 5px; }
+
+.fotosr {
+  background-color: #FFF2CC;
+  width: 400px;
+  border: 8px solid #F4B183;
+  padding: 40px;
+  margin: 10px;
+  border-radius: 5px; }
+
+.pizza {
+  width: 450px; }
+  @media only screen and (max-width: 420px) {
+    .pizza {
+      width: 90%; } }
+
+.titulopizzas {
+  font-family: "Dancing Script", cursive; }
+
+.listas-menu {
+  list-style: none;
+  font-family: "Quicksand", sans-serif;
+  text-align: left; }
+
+.bebidas {
+  background-color: #FFF2CC;
+  width: 350px;
+  border: 8px solid #F4B183;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 5px; }

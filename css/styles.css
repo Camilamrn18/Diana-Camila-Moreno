@@ -1,11 +1,7 @@
+@use 'nav';
+@use 'footer';
 #encabezado {
   background-color: #F1C27B; }
-
-#menu {
-  background-color: #A2CDB0; }
-
-#pie {
-  background-color: #FFD89C; }
 
 #menupizzas {
   background-color: #A2CDB0; }
@@ -62,7 +58,7 @@
   width: 400px;
   border: 8px solid #F4B183;
   padding: 40px;
-  margin: 10px;
+  margin: 20px;
   border-radius: 5px; }
 
 .pizza {
@@ -74,11 +70,6 @@
 .titulopizzas {
   font-family: "Dancing Script", cursive; }
 
-.listas-menu {
-  list-style: none;
-  font-family: "Quicksand", sans-serif;
-  text-align: left; }
-
 .bebidas {
   background-color: #FFF2CC;
   width: 350px;
@@ -86,3 +77,6 @@
   padding: 40px;
   margin: 20px;
   border-radius: 5px; }
+
+.mapa frame {
+  width: 100%; }

@@ -1,3 +1,4 @@
+
 $color_1: black;
 $font-family_1: 'Lora', serif;
 $font-family_2: 'Cabin Sketch', cursive;
@@ -11,14 +12,18 @@ $background-color_4: #E1EEDD;
 $background-color_5: #FFF2CC;
 $border-color_orange: #F4B183;
 
+@use 'nav';
+@use 'footer';
+
+
+@mixin theme($theme: ImgBorder){
+	border: 8px solid $border-color_orange;
+	padding: 40px;
+	margin: 20px;
+	border-radius: 5px;
+}
 #encabezado {
 	background-color: $background-color_1;
-}
-#menu {
-	background-color: $background-color_2;
-}
-#pie {
-	background-color: $background-color_3;
 }
 #menupizzas {
 	background-color: $background-color_2;
@@ -66,18 +71,12 @@ $border-color_orange: #F4B183;
 .pizza1 {
 	background-color: $background-color_5;
 	width: 350px;
-	border: 8px solid $border-color_orange;
-	padding: 40px;
-	margin: 20px;
-	border-radius: 5px;
+	@include theme($theme:ImgBorder);
 }
 .fotosr {
 	background-color: $background-color_5;
 	width: 400px;
-	border: 8px solid $border-color_orange;
-	padding: 40px;
-	margin: 10px;
-	border-radius: 5px;
+	@include theme($theme:ImgBorder);
 }
 .pizza {
 	width: 450px;
@@ -88,16 +87,14 @@ $border-color_orange: #F4B183;
     font-family: $font-family_4;
 }
 
-.listas-menu {
-	list-style: none;
-	font-family: $font-family_5;
-	text-align: left;
-}
 .bebidas {
 	background-color: $background-color_5;
 	width: 350px;
-	border: 8px solid $border-color_orange;
-	padding: 40px;
-	margin: 20px;
-	border-radius: 5px;
+	@include theme($theme:ImgBorder);
+}
+
+.mapa{
+	frame{
+		width: 100%;
+	}
 }

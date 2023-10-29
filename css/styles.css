@@ -1,5 +1,14 @@
-@use 'nav';
-@use 'footer';
+#pie {
+  background-color: #FFD89C; }
+
+#menu {
+  background-color: #A2CDB0; }
+
+.listas-menu {
+  list-style: none;
+  font-family: "Quicksand", sans-serif;
+  text-align: left; }
+
 #encabezado {
   background-color: #F1C27B; }
 
@@ -46,19 +55,17 @@
   justify-content: center; }
 
 .pizza1 {
-  background-color: #FFF2CC;
   width: 350px;
+  background-color: #FFF2CC;
   border: 8px solid #F4B183;
-  padding: 40px;
-  margin: 20px;
+  padding: 15px;
   border-radius: 5px; }
 
 .fotosr {
-  background-color: #FFF2CC;
   width: 400px;
+  background-color: #FFF2CC;
   border: 8px solid #F4B183;
-  padding: 40px;
-  margin: 20px;
+  padding: 15px;
   border-radius: 5px; }
 
 .pizza {
@@ -71,11 +78,10 @@
   font-family: "Dancing Script", cursive; }
 
 .bebidas {
-  background-color: #FFF2CC;
   width: 350px;
+  background-color: #FFF2CC;
   border: 8px solid #F4B183;
-  padding: 40px;
-  margin: 20px;
+  padding: 15px;
   border-radius: 5px; }
 
 .mapa frame {

@@ -12,14 +12,14 @@ $background-color_4: #E1EEDD;
 $background-color_5: #FFF2CC;
 $border-color_orange: #F4B183;
 
-@use 'nav';
-@use 'footer';
+@import '_footer';
+@import '_nav';
 
 
 @mixin theme($theme: ImgBorder){
+	background-color: $background-color_5;
 	border: 8px solid $border-color_orange;
-	padding: 40px;
-	margin: 20px;
+	padding: 15px;
 	border-radius: 5px;
 }
 #encabezado {
@@ -69,12 +69,10 @@ $border-color_orange: #F4B183;
 	justify-content: center;
 }
 .pizza1 {
-	background-color: $background-color_5;
 	width: 350px;
 	@include theme($theme:ImgBorder);
 }
 .fotosr {
-	background-color: $background-color_5;
 	width: 400px;
 	@include theme($theme:ImgBorder);
 }
@@ -88,7 +86,6 @@ $border-color_orange: #F4B183;
 }
 
 .bebidas {
-	background-color: $background-color_5;
 	width: 350px;
 	@include theme($theme:ImgBorder);
 }
